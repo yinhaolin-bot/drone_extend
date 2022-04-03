@@ -3,7 +3,7 @@ drone_extend is an extension simulation of [px4_fast_planner](https://github.com
 
 * To use max performance, you must enable NVIDIA graphic driver
 
-<img src="https://user-images.githubusercontent.com/69444682/161436743-24bf3fba-152f-46b6-afeb-8c8111feed8b.png" width="500">  <img src="https://user-images.githubusercontent.com/69444682/161436744-ff26448c-d852-4861-832e-317c51d954ff.png" width="500">
+<img src="https://user-images.githubusercontent.com/69444682/161436743-24bf3fba-152f-46b6-afeb-8c8111feed8b.png" width="525">  <img src="https://user-images.githubusercontent.com/69444682/161436744-ff26448c-d852-4861-832e-317c51d954ff.png" width="500">
 
 * Check `/camera/imu` topic. Type as below
 
