@@ -9,7 +9,7 @@ drone_extend is an extension simulation of [px4_fast_planner](https://github.com
 ```shell
 $ rosrun tf view_frames && evince frames.pdf
 ```
-<img src="https://user-images.githubusercontent.com/69444682/161424850-f0777c14-0e91-49b4-b0b0-c5ebf77abcb6.png" width="400"> <img src="https://user-images.githubusercontent.com/69444682/161437262-020d612a-654a-4ffd-9b4d-45b3d327fdb7.png" width="400">
+<img src="https://user-images.githubusercontent.com/69444682/161424850-f0777c14-0e91-49b4-b0b0-c5ebf77abcb6.png" width="400"> <img src="https://user-images.githubusercontent.com/69444682/161437262-020d612a-654a-4ffd-9b4d-45b3d327fdb7.png" width="600">
 
 ## Change
 To use VIO, you must change some parameters.
