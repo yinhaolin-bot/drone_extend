@@ -12,6 +12,10 @@ $ rosrun tf view_frames && evince frames.pdf
 ```
 <img src="https://user-images.githubusercontent.com/69444682/161424850-f0777c14-0e91-49b4-b0b0-c5ebf77abcb6.png" width="325"> <img src="https://user-images.githubusercontent.com/69444682/161437262-020d612a-654a-4ffd-9b4d-45b3d327fdb7.png" width="490">
 
+```shell
+$ rostopic echo /camera/color/camera_info
+$ rostopic echo /camera/depth/camera_info
+```
 <img src="https://user-images.githubusercontent.com/69444682/161438532-848282e9-aa7e-4526-808d-4ad98a3bcee0.png" width="400"> <img src="https://user-images.githubusercontent.com/69444682/161438530-efd8c5ac-1aaa-498c-ac74-7f890c29b904.png" width="400">
 
 ## Change
