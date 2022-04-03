@@ -11,6 +11,7 @@
 $ rosrun tf view_frames && evince frames.pdf
 ```
 <img src="https://user-images.githubusercontent.com/69444682/161424850-f0777c14-0e91-49b4-b0b0-c5ebf77abcb6.png" width="325"> <img src="https://user-images.githubusercontent.com/69444682/161437262-020d612a-654a-4ffd-9b4d-45b3d327fdb7.png" width="490">
+![Screenshot from 2022-04-03 23-58-41](https://user-images.githubusercontent.com/69444682/161439279-d4dff821-48c1-4543-935a-9b57441047e7.png)
 
 ```shell
 $ rostopic echo /camera/color/camera_info
