@@ -6,5 +6,9 @@ drone_extend is an extension simulation of [px4_fast_planner](https://github.com
 
 ## Change
 To use VIO, you must change some parameters.
+| Param | Original | After |
+| --- | --- | --- |
+| EKF2_AID_MASK | 1 | 24 |
+| EKF2_HGT_MODE | 0 | 3 |
 
 ![Screenshot from 2022-04-03 22-04-06](https://user-images.githubusercontent.com/69444682/161434374-f3bc683e-49c7-4d66-aaef-a83267a49db8.png)
