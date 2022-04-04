@@ -34,10 +34,16 @@ P: [319.9348449707031, 0.0, 320.0, 0.0, 0.0, 319.9348449707031, 240.0, 0.0, 0.0,
 <img src="https://user-images.githubusercontent.com/69444682/161438532-848282e9-aa7e-4526-808d-4ad98a3bcee0.png" width="400"> <img src="https://user-images.githubusercontent.com/69444682/161438530-efd8c5ac-1aaa-498c-ac74-7f890c29b904.png" width="400">
 
 ## Change
-To use VIO, you must change some parameters.
+* To use VIO, you must change some parameters.
 | Param | Original | After |
 | --- | --- | --- |
 | EKF2_AID_MASK | 1 | 24 |
 | EKF2_HGT_MODE | 0 | 3 |
 
 ![Screenshot from 2022-04-03 22-04-06](https://user-images.githubusercontent.com/69444682/161434374-f3bc683e-49c7-4d66-aaef-a83267a49db8.png)
+
+* source by using the initialization command
+```shell
+$ roslaunch px4 posix_sitl.launch
+```
+![Screenshot from 2022-04-04 18-00-56](https://user-images.githubusercontent.com/69444682/161530544-b023f915-3580-463f-a39e-bc98b800d919.png)
