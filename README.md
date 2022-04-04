@@ -35,6 +35,7 @@ P: [319.9348449707031, 0.0, 320.0, 0.0, 0.0, 319.9348449707031, 240.0, 0.0, 0.0,
 
 ## Change
 * To use VIO, you must change some parameters.
+
 | Param | Original | After |
 | --- | --- | --- |
 | EKF2_AID_MASK | 1 | 24 |
