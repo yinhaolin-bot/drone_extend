@@ -48,3 +48,25 @@ P: [319.9348449707031, 0.0, 320.0, 0.0, 0.0, 319.9348449707031, 240.0, 0.0, 0.0,
 $ roslaunch px4 posix_sitl.launch
 ```
 ![Screenshot from 2022-04-04 18-00-56](https://user-images.githubusercontent.com/69444682/161530544-b023f915-3580-463f-a39e-bc98b800d919.png)
+
+## Publish points
+```shell
+$ rostopic pub --once /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: ''
+pose:
+  position:
+    x: 5.0
+    y: 0.0
+    z: 3.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 0.0" 
+publishing and latching message for 3.0 seconds
+```
+
