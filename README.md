@@ -74,7 +74,7 @@ publishing and latching message for 3.0 seconds
 
 | Flight scenario | 1st  | 2nd |
 | --- | --- | --- |
-| global waypoints number | 9 | 3 |
+| global waypoints number | 8 | 3 |
 | 1 | (0;27.5;2) | (-13;0;5) |
 | 2 | (0;-27.5;2) | (12;0;5) |
 | 3 | (0;0;2) | (-10;-10;5) |
