@@ -82,7 +82,7 @@ publishing and latching message for 3.0 seconds
 | 5 |  | (-10;14;2) |   |   |
 | 6 |  | (-10;-11;2) |   |   |
 
-```
+```xml
     <!-- 1: use 2D Nav Goal to select goal  -->
     <!-- 2: use global waypoints below  -->
     <arg name="flight_type" value="2" />
