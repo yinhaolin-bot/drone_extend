@@ -105,7 +105,9 @@ publishing and latching message for 3.0 seconds
     <arg name="point2_y" value="-10.0" />
     <arg name="point2_z" value="5.0" />
 
-    <!--<arg name="point0_x" value="-9.0" />
+    <!-- <arg name="point_num" value="2" />
+
+    <arg name="point0_x" value="-9.0" />
     <arg name="point0_y" value="9.0" />
     <arg name="point0_z" value="5.0" />
 
@@ -117,10 +119,9 @@ publishing and latching message for 3.0 seconds
 
     <arg name="point0_x" value="0.0" />
     <arg name="point0_y" value="27.5" />
-    <arg name="point0_z" value="2.0" />-->
+    <arg name="point0_z" value="2.0" />
 
-    <!-- set more waypoints if you need -->
-    <!--<arg name="point1_x" value="0.0" />
+    <arg name="point1_x" value="0.0" />
     <arg name="point1_y" value="-26.5" />
     <arg name="point1_z" value="2.0" />
 
