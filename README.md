@@ -50,6 +50,8 @@ $ roslaunch px4 posix_sitl.launch
 ![Screenshot from 2022-04-04 18-00-56](https://user-images.githubusercontent.com/69444682/161530544-b023f915-3580-463f-a39e-bc98b800d919.png)
 
 ## Publish points
+* To command the drone to fly to a target pose, publish a single message to the `/move_base_simple/goal` topic as follows
+
 ```shell
 $ rostopic pub --once /move_base_simple/goal geometry_msgs/PoseStamped "header:
   seq: 0
