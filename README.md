@@ -72,7 +72,7 @@ pose:
 publishing and latching message for 3.0 seconds
 ```
 
-##Flight scenario
+## Flight scenario
 
 | Flight scenario | 1st  | 2nd | 3rd | 4th |
 | --- | --- | --- | --- | --- |
