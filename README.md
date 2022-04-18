@@ -81,3 +81,68 @@ publishing and latching message for 3.0 seconds
 | 4 |  | (7;-8.5;2) |   |   |
 | 5 |  | (-10;14;2) |   |   |
 | 6 |  | (-10;-11;2) |   |   |
+
+```
+    <!-- 1: use 2D Nav Goal to select goal  -->
+    <!-- 2: use global waypoints below  -->
+    <arg name="flight_type" value="2" />
+    
+    <!-- global waypoints -->
+    <!-- If flight_type is set to 2, the drone will travel these waypoints one by one -->
+    <arg name="point_num" value="3" />
+
+    <arg name="point0_x" value="-13" />
+    <arg name="point0_y" value="0.0" />
+    <arg name="point0_z" value="5.0" />
+
+    <arg name="point1_x" value="12.0" />
+    <arg name="point1_y" value="0.0" />
+    <arg name="point1_z" value="5.0" />
+
+    <arg name="point2_x" value="-10.0" />
+    <arg name="point2_y" value="-10.0" />
+    <arg name="point2_z" value="5.0" />
+
+    <!--<arg name="point0_x" value="-9.0" />
+    <arg name="point0_y" value="9.0" />
+    <arg name="point0_z" value="5.0" />
+
+    <arg name="point1_x" value="-6.0" />
+    <arg name="point1_y" value="0.0" />
+    <arg name="point1_z" value="2.0" />-->
+
+    <!--<arg name="point_num" value="8" />
+
+    <arg name="point0_x" value="0.0" />
+    <arg name="point0_y" value="27.5" />
+    <arg name="point0_z" value="2.0" />-->
+
+    <!-- set more waypoints if you need -->
+    <!--<arg name="point1_x" value="0.0" />
+    <arg name="point1_y" value="-26.5" />
+    <arg name="point1_z" value="2.0" />
+
+    <arg name="point2_x" value="0.0" />
+    <arg name="point2_y" value="0.0" />
+    <arg name="point2_z" value="2.0" />
+
+    <arg name="point3_x" value="14.0" />
+    <arg name="point3_y" value="-14.0" />
+    <arg name="point3_z" value="2.0" />
+
+    <arg name="point4_x" value="7.0" />
+    <arg name="point4_y" value="10.5" />
+    <arg name="point4_z" value="2.0" />
+
+    <arg name="point5_x" value="7" />
+    <arg name="point5_y" value="-8.5" />
+    <arg name="point5_z" value="2.0" />
+
+    <arg name="point6_x" value="-10" />
+    <arg name="point6_y" value="14" />
+    <arg name="point6_z" value="2.0" />
+
+    <arg name="point7_x" value="-10" />
+    <arg name="point7_y" value="-11" />
+    <arg name="point7_z" value="2.0" />-->
+```
