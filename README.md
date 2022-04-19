@@ -49,13 +49,13 @@ P: [319.9348449707031, 0.0, 320.0, 0.0, 0.0, 319.9348449707031, 240.0, 0.0, 0.0,
 | EKF2_AID_MASK | 1 | 24 |
 | EKF2_HGT_MODE | 0 | 3 |
 
-![Screenshot from 2022-04-03 22-04-06](https://user-images.githubusercontent.com/69444682/161434374-f3bc683e-49c7-4d66-aaef-a83267a49db8.png)
+<img src="https://user-images.githubusercontent.com/69444682/161434374-f3bc683e-49c7-4d66-aaef-a83267a49db8.png" width="500">
 
 * source by using the initialization command
 ```shell
 $ roslaunch px4 posix_sitl.launch
 ```
-![Screenshot from 2022-04-04 18-00-56](https://user-images.githubusercontent.com/69444682/161530544-b023f915-3580-463f-a39e-bc98b800d919.png)
+<img src="https://user-images.githubusercontent.com/69444682/161530544-b023f915-3580-463f-a39e-bc98b800d919.png" width="500">
 
 [Publish points](#publish-points)
 ================
