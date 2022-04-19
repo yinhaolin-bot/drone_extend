@@ -149,3 +149,15 @@ publishing and latching message for 3.0 seconds
     <arg name="point7_y" value="-11" />
     <arg name="point7_z" value="2.0" />-->
 ```
+
+Add && Change Parameter accordingly
+=========================
+```
+          <param name="yaw_heading" value="3.14" />
+```
+
+```
+          <param name="attctrl_constant" value="0.3" />
+          <param name="normalizedthrust_constant" value="0.06" />
+          <param name="normalizedthrust_offset" value="0.001" />
+```
