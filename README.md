@@ -152,11 +152,11 @@ publishing and latching message for 3.0 seconds
 
 Add && Change Parameter accordingly
 =========================
-```
+```xml
           <param name="yaw_heading" value="3.14" />
 ```
 
-```
+```xml
           <param name="attctrl_constant" value="0.3" />
           <param name="normalizedthrust_constant" value="0.06" />
           <param name="normalizedthrust_offset" value="0.001" />
