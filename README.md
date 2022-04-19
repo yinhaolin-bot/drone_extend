@@ -3,9 +3,12 @@
 
 * [Show simulation](#show-simulation)
 * [Change PX4 Parameter](#change-px4-parameter)
-* 
+* [Publish points](#publish-points)
+* [Add && Change Parameter accordingly](#add-change-parameter-accordingly)
 
 [Show simulation](#show-simulation)
+=================
+
 * To use max performance, you must enable NVIDIA graphic driver
 
 <img src="https://user-images.githubusercontent.com/69444682/161436743-24bf3fba-152f-46b6-afeb-8c8111feed8b.png" width="425"> <img src="https://user-images.githubusercontent.com/69444682/161436744-ff26448c-d852-4861-832e-317c51d954ff.png" width="400">
@@ -54,7 +57,9 @@ $ roslaunch px4 posix_sitl.launch
 ```
 ![Screenshot from 2022-04-04 18-00-56](https://user-images.githubusercontent.com/69444682/161530544-b023f915-3580-463f-a39e-bc98b800d919.png)
 
-## Publish points
+[Publish points](#publish-points)
+================
+
 * To command the drone to fly to a target pose, publish a single message to the `/move_base_simple/goal` topic as follows
 
 ```shell
@@ -155,7 +160,7 @@ publishing and latching message for 3.0 seconds
     <arg name="point7_z" value="2.0" />-->
 ```
 
-Add && Change Parameter accordingly
+[Add && Change Parameter accordingly](#add-change-parameter-accordingly)
 =========================
 ```xml
           <param name="yaw_heading" value="3.14" />
