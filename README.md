@@ -183,7 +183,7 @@ publishing and latching message for 3.0 seconds
     <arg name="point7_z" value="2.0" />-->
 ```
 
-[Add and Change Parameter accordingly](#add-change-parameter-accordingly)
+[Add and Change Parameter accordingly](#add-and-change-parameter-accordingly)
 =====================================
 ```xml
           <param name="yaw_heading" value="3.14" />
@@ -195,8 +195,8 @@ publishing and latching message for 3.0 seconds
           <param name="normalizedthrust_offset" value="0.001" />
 ```
 
-[PlanningVisualization](#planning-visualization)
-=======================
+[Planning Visualization](#planning-visualization)
+========================
 
 <img src="https://user-images.githubusercontent.com/69444682/164914791-0e8b18e3-f7d7-4dee-a5dc-96f4da022f4a.png" width="750">
 
