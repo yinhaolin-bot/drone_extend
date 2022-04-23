@@ -5,6 +5,7 @@
 * [Change PX4 Parameter](#change-px4-parameter)
 * [Publish points](#publish-points)
 * [Add && Change Parameter accordingly](#add-change-parameter-accordingly)
+* [PlanningVisualization](#planning-visualization)
 
 ```mermaid
 graph LR
@@ -193,3 +194,9 @@ publishing and latching message for 3.0 seconds
           <param name="normalizedthrust_constant" value="0.06" />
           <param name="normalizedthrust_offset" value="0.001" />
 ```
+
+[PlanningVisualization](#planning-visualization)
+=======================
+
+<img src="https://user-images.githubusercontent.com/69444682/164914791-0e8b18e3-f7d7-4dee-a5dc-96f4da022f4a.png" width="500">
+
