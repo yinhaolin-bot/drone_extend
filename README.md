@@ -19,17 +19,6 @@ graph LR
   sim --> exp;
   exp --> check;
 ```
-```ditaa {cmd=true args=["-E"]}
-+--------+   +-------+    +-------+
-|        | --+ ditaa +--> |       |
-|  Text  |   +-------+    |diagram|
-|Document|   |!magic!|    |       |
-|     {d}|   |       |    |       |
-+---+----+   +-------+    +-------+
-    :                         ^
-    |       Lots of work      |
-    +-------------------------+
-```
   
 [Show simulation](#show-simulation)
 =================
