@@ -4,7 +4,7 @@
 * [Show simulation](#show-simulation)
 * [Change PX4 Parameter](#change-px4-parameter)
 * [Publish points](#publish-points)
-* [Add && Change Parameter accordingly](#add-change-parameter-accordingly)
+* [Add and Change Parameter accordingly](#add-change-parameter-accordingly)
 * [PlanningVisualization](#planning-visualization)
 
 ```mermaid
