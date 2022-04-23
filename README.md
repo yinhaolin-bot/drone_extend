@@ -8,6 +8,12 @@
 
 ```mermaid
 graph LR
+  drone_extend --> px4_fast_planner;
+  drone_extend --> Fast Planner;
+```
+
+```mermaid
+graph LR
   test --> find_path;
   find_path --> sim;
   sim --> exp;
