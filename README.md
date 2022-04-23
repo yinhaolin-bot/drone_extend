@@ -183,7 +183,7 @@ publishing and latching message for 3.0 seconds
     <arg name="point7_z" value="2.0" />-->
 ```
 
-[Add && Change Parameter accordingly](#add-change-parameter-accordingly)
+[Add and Change Parameter accordingly](#add-change-parameter-accordingly)
 =====================================
 ```xml
           <param name="yaw_heading" value="3.14" />
