@@ -6,6 +6,20 @@
 * [Publish points](#publish-points)
 * [Add && Change Parameter accordingly](#add-change-parameter-accordingly)
 
+```mermaid
+graph LR
+  drone_extend --> px4_fast_planner;
+  drone_extend --> fast_planner;
+```
+
+```mermaid
+graph LR
+  test --> find_path;
+  find_path --> sim;
+  sim --> exp;
+  exp --> check;
+```
+  
 [Show simulation](#show-simulation)
 =================
 
@@ -82,7 +96,7 @@ pose:
 publishing and latching message for 3.0 seconds
 ```
 
-## Flight scenario
+## Flight scenario with ivsr_planner World
 
 | Flight scenario | 1st  | 2nd | 3rd | 4th |
 | --- | --- | --- | --- | --- |
