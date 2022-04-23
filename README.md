@@ -198,5 +198,5 @@ publishing and latching message for 3.0 seconds
 [PlanningVisualization](#planning-visualization)
 =======================
 
-<img src="https://user-images.githubusercontent.com/69444682/164914791-0e8b18e3-f7d7-4dee-a5dc-96f4da022f4a.png" width="500">
+<img src="https://user-images.githubusercontent.com/69444682/164914791-0e8b18e3-f7d7-4dee-a5dc-96f4da022f4a.png" width="700">
 
