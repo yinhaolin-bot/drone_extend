@@ -16,6 +16,13 @@ cond=>condition: Yes
 st->opl->cond
 ```
 
+```mermaid
+graph LR
+  A --> B;
+  B --> C;
+  C --> A;
+```
+
 [Show simulation](#show-simulation)
 =================
 
