@@ -8,6 +8,12 @@
 
 ```flow
 st=>start: Start:>http://www.google.com[blank]
+e=>end:>http://www.google.com
+opl=>operation: My Operation
+subl=>subroutine: My Subroutine
+cond=>condition: Yes
+
+st->opl->cond
 ```
 
 [Show simulation](#show-simulation)
