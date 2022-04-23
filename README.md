@@ -6,21 +6,12 @@
 * [Publish points](#publish-points)
 * [Add && Change Parameter accordingly](#add-change-parameter-accordingly)
 
-```flow
-st=>start: Start:>http://www.google.com[blank]
-e=>end:>http://www.google.com
-opl=>operation: My Operation
-subl=>subroutine: My Subroutine
-cond=>condition: Yes
-
-st->opl->cond
-```
-
 ```mermaid
 graph LR
-  A --> B;
-  B --> C;
-  C --> A;
+  test --> find_path;
+  find_path --> sim;
+  sim --> exp;
+  exp --> check;
 ```
 
 [Show simulation](#show-simulation)
