@@ -9,7 +9,7 @@
 ```mermaid
 graph LR
   drone_extend --> px4_fast_planner;
-  drone_extend --> fast planner;
+  drone_extend --> fast_planner;
 ```
 
 ```mermaid
