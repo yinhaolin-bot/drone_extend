@@ -7,7 +7,7 @@
 * [Add && Change Parameter accordingly](#add-change-parameter-accordingly)
 
 ```flow
-st==>start: Start:>http://www.google.com[blank]
+st=>start: Start:>http://www.google.com[blank]
 ```
 
 [Show simulation](#show-simulation)
