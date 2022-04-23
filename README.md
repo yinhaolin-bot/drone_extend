@@ -14,6 +14,14 @@ graph LR
 
 ```mermaid
 graph LR
+  plan_env --> path_searching;
+  path_searching --> bspline;
+  bspline --> bspline_opt;
+  traj_server --> geometric_controller;
+```
+
+```mermaid
+graph LR
   test --> find_path;
   find_path --> sim;
   sim --> exp;
